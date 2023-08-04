@@ -1,0 +1,44 @@
+{
+  "name": "wp-starter-pack-theme-tailwind",
+  "version": "1.0.0",
+  "description": "WP Starter Pack Theme Tailwind",
+  "main": "webpack.mix.js",
+  "scripts": {
+    "dev": "mix",
+    "watch": "mix watch",
+    "prod": "cross-env NODE_ENV=production npm run build"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robacerbo/wp-starter-pack-theme-tailwind.git"
+  },
+  "author": "Roberto Acerbo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robacerbo/wp-starter-pack-theme-tailwind.git"
+  },
+  "homepage": "https://github.com/robacerbo/wp-starter-pack-theme-tailwind",
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.5.4",
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "@tailwindcss/typography": "^0.5.2",
+    "autoprefixer": "^10.4.2",
+    "browser-sync": "^2.27.7",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "flowbite-typography": "^1.0.2",
+    "laravel-mix": "^6.0.49",
+    "postcss": "^8.4.6",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.49.8",
+    "sass-loader": "^13.3.2",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "fast-glob": "^3.3.1",
+    "flowbite": "^1.8.1",
+    "tw-elements": "^1.0.0-alpha12"
+  }
+}
