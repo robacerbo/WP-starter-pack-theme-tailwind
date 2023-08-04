@@ -30,7 +30,7 @@ module.exports = {
     require('@tailwindcss/forms'),
     require('@tailwindcss/line-clamp'),
     require('@tailwindcss/typography'),
-    require('tw-elements/dist/plugin'),
+    require('tw-elements/dist/plugin.cjs'),
     require('flowbite/plugin')
   ],
 }

@@ -164,6 +164,14 @@ function wtsp_my_scripts_method() {
 		true
 	);
 
+	wp_enqueue_script(
+		'tw-elements',
+		get_template_directory_uri() . '/node_modules/tw-elements/dist/js/tw-elements.umd.min.js',
+		[ ],
+		'1.0.0',
+		true
+	);
+
 }
 
 /* Enamble custom thumbnail sizes */
